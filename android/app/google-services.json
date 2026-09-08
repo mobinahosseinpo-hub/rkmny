@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "245057253378",
+    "project_id": "rkmny-56219",
+    "storage_bucket": "rkmny-56219.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245057253378:android:a71092ee8a89e83449f71b",
+        "android_client_info": {
+          "package_name": "com.rkmny.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBzMRJPf-hk00u2nriRRqwc7_qmy6BCjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
