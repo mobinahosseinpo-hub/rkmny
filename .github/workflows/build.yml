@@ -23,6 +23,12 @@ jobs:
         with:
           channel: 'stable'
 
+      - name: Update AndroidManifest for v2 embedding
+        run: |
+          if [ -f android/app/src/main/AndroidManifest.xml ]; then
+            sed -i '/<\/application>/i \        <meta-data android:name="flutterEmbedding" android:value="2" />' android/app/src/main/AndroidManifest.xml
+          fi
+
       - name: Get dependencies
         run: flutter pub get
 
